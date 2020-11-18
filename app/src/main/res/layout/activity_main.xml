@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/a1"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_marginLeft="5pt"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Trải nghiệm dễ dàng, nhẹ nhàng thanh toán"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        />
+
+
+
+    <ListView
+        android:id="@+id/listdanhsach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="170dp"
+        />
+
+</RelativeLayout>
+
